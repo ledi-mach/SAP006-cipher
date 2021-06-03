@@ -1,1 +1,50 @@
-/* css */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: black;
+      background-color: rgb(172, 99, 172);
+  }
+
+  .content{
+      display: flex;
+      justify-content: center;
+  }
+
+  .form{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .field {
+      padding:10px;
+      margin-bottom: 15px;
+      border:1px solid black;
+      border-radius: 15px;
+      height: 150px;
+      width:400px;   
+  }
+  
+  h1{
+      font-size: Arial;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 20px;
+  }
+  
+  .code {
+      width: 180px;
+      height: 25px;
+      border-radius: 5px;
+      margin-bottom:5px;
+  }
+
+ .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }

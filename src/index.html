@@ -6,9 +6,23 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="root">
-    <h1>Hello world!</h1>
-  </div>
+  <main>
+    <section class="content">
+      <div class="main">
+        <h1>Cripto</h1>
+
+        <form class="form"> 
+          <textarea  id="field" class="field" name="message" placeholder="Digite aqui sua mensagem!"></textarea>
+          
+          <div class="buttons">
+            <div class="codificar"><input type="button" class="code" value="Codificar" onclick="cipher()"></div>
+            <div class="decodificar"></div> <input type="button" class="code" value="Decodificar" onclick="decipher()"></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  
   <script src="index.js" type="module"></script>
 </body>
 </html>
