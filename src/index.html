@@ -8,19 +8,18 @@
 <body>
   <main>
     <section class="content">
-      <div class="main">
-        <h1>Cripto</h1>
+      <form class="form"> 
+        
+        <label class="primeira-linha"><h1>Cripto</h1></label>
+        <textarea  id="field" class="field" name="message" placeholder="Digite aqui sua mensagem!"></textarea>
 
-        <form class="form"> 
-          <textarea  id="field" class="field" name="message" placeholder="Digite aqui sua mensagem!"></textarea>
-          
-          <div class="buttons">
-            <div class="codificar"><input type="button" class="code" value="Codificar" onclick="cipher()"></div>
-            <div class="decodificar"></div> <input type="button" class="code" value="Decodificar" onclick="decipher()"></div>
-          </div>
-        </form>
-      </div>
-    </section>
+        <label class="buttons">
+          <div class="codificar"><input type="button" id="coding" class="code" value="Codificar"></button></div>
+          <div class="decodificar"><input type="button" id="encoding" class="code" value="Decodificar"></button></div>
+        </label>
+
+      </form>
+  </section>
   </main>
   
   <script src="index.js" type="module"></script>
