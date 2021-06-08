@@ -40,6 +40,10 @@
       height: 150px;
       width:400px;   
   }
+  .deslocamento {
+      margin:auto;
+      margin-bottom: 15px;
+  }
   
   .code {
       width: 180px;
