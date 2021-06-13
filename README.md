@@ -1,3 +1,30 @@
+# Cripto
+Compartilhe e leia mensagens de forma mais segura.
+ 
+## . Apresentação do produto
+O cripto é um programa desenvolvido...
+## . Usuários
+Pessoas residentes em locais onde há perseguições religiosas e/ou culturais.
+## . Objetivo
+Possibilitar compartilhamento e leitura de textos de forma mais
+segura usando criptografia e descriptografia.
+## . Solução do produto
+--escrever--
+## Considerações gerais
+## . Fluxograma
+aqui anexar img
+## . Tecnologias usadas
+HTML, CSS e vanilla JavaScript.
+## Considerações técnicas
+## . Funções
+**Função --** aqui explicar
+## Autora
+[@ledi-mach](https://github.com/ledi-mach)
+
+
+
+<!-->
+
 # Cifra de César
 
 ## Índice
@@ -338,3 +365,4 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 * [ ] Cifrar/decifrar minúsculas.
 * [ ] Cifrar/decifrar _outros_ caractéres (espaços, pontuação, `ç`, `á`, ...).
 * [ ] Permitir usar `offset` negativo.
+-->

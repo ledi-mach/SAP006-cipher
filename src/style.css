@@ -1,4 +1,115 @@
-*{
+* body{
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.menu ul{
+background-color: black;
+list-style: none; /*esconde os marcadores da lista*/
+text-align:right;
+padding: 9px;
+
+}
+.menu ul li {
+    display: inline;
+}
+.menu ul li a{
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    color: rgb(170, 219, 250);
+}
+.titulo-e-logo {
+    margin-left: 50px;
+    margin-top: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.compartilhe {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-left: 50px;
+}
+.info {
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height:250px;
+    border-radius: 3%;
+}
+.txt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    margin:25px;
+    line-height: 30px;
+}
+.txt a {
+    color: rgb(170, 219, 250);
+    text-decoration: none;
+}
+.text-offset {
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+    width: 400px;
+    height: 250px;
+    background-color: #CED7D2;
+    border: 1px solid #939493;
+    box-shadow: 1px 1px #939493;
+    border-radius: 3%;
+    text-align: center;
+}
+.buttons {
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+    width: 110px;
+    height: 210px;
+    text-align: center;
+    
+}
+.button {
+    height: 30px;
+    width: 108px;
+    margin-bottom: 15px;
+    background-color:black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 8%;
+}
+.field {
+    width: 360px;
+    height: 162px;
+    margin-top: 15px;
+    border: 1px solid #939493;
+    box-shadow: 1px 1px #939493;
+}
+.deslocamento {
+    width: 300px;
+    height: 30px;
+    background-color:white;
+    color: rgba(19, 18, 18, 0.856);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #939493;
+    box-shadow: 1px 1px #939493;
+}
+
+
+
+/**{
     margin: 0;
     padding: 0;
   }
@@ -56,4 +167,4 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
- }
+ } */
