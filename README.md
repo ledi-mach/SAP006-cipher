@@ -26,7 +26,6 @@ política e/ou cultural.
 ## . Tecnologias usadas
 HTML, CSS e vanilla JavaScript.
 ## Considerações técnicas
-## . Funções
  let buttonCoding : Pega o texto e deslocamento digitado, chama a função cipher.encode e atribui o resultado
  ao campo de texto.
 
