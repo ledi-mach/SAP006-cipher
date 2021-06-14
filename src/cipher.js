@@ -5,9 +5,6 @@ const cipher = {
         if((offset !== null && offset !== 0) && (txt !== "" && txt !== typeof"number")) {
         for(let i = 0; i < txt.length; i++) {
             let codeLetter = txt.charCodeAt(i); //para encontrar o código ASC de cada letra;
-           // if(codeLetter >=0 && codeLetter <65|| codeLetter >=91 && codeLetter <=96 || codeLetter >=123 && codeLetter <=126) {
-                //result += String.fromCharCode(codeLetter);
-           // } 
             if(codeLetter >= 65 && codeLetter <= 90) {
                 let newCode = ((codeLetter - 65 + offset)%26) + 65; //para pegar o código ASC das maiúsculas já deslocado;
                 result += String.fromCharCode(newCode);
@@ -22,7 +19,6 @@ const cipher = {
             throw TypeError('Dados inválidos');
         }
     },
-   // decode 
 
     decode(offset, txt) {
         let result = "";
@@ -30,9 +26,6 @@ const cipher = {
         if((offset !== null && offset !== 0) && (txt !== "" && txt !== typeof"number")) {
         for (let i = 0; i < txt.length ; i++) {
             let codeLetter = txt.charCodeAt(i);
-            //if(codeLetter >=0 && codeLetter <65|| codeLetter >=91 && codeLetter <=96 || codeLetter >=123 && codeLetter <=126) {
-                //result += String.fromCharCode(codeLetter);
-            //}
             if(codeLetter >= 65 && codeLetter <= 90) {
                 let newCode = ((codeLetter + 65 - offset)%26) +65;
                 result += String.fromCharCode(newCode);
