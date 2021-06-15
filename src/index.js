@@ -13,7 +13,6 @@ buttonEncoding.addEventListener("click", function () {
     let txt = document.getElementById("field").value;
     let offset = Number(document.getElementById("chave").value);
     document.getElementById("field").value = cipher.decode(offset, txt);
-
 });
 
 let buttonCopy = document.getElementById("copy");
