@@ -1,0 +1,111 @@
+* body{
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu ul{
+background-color: black;
+list-style: none; /*esconde os marcadores da lista*/
+text-align:right;
+padding: 9px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a{
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: rgb(170, 219, 250);
+}
+.titulo-e-logo {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.compartilhe {
+    font-size: 40px;
+    color:black;
+    margin-left: 50px;
+}
+
+.info, .text-offset, .buttons {
+    float:left;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.info {
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    width: 400px;
+    border-radius: 3%;
+}
+
+.txt {
+    font-size: 21px;
+    margin:25px;
+    line-height: 30px;
+}
+
+.txt a {
+    color: rgb(170, 219, 250);
+    text-decoration: none;
+}
+
+.text-offset {
+    margin-left: 22px;
+    width: 400px;
+    background-color: #CED7D2;
+    border: 1px solid #939493;
+    box-shadow: 1px 1px #939493;
+    border-radius: 3%;
+    text-align: center;
+}
+
+.buttons {
+    margin-left: 22px;
+    width: 110px;
+    text-align: center; 
+}
+
+.button {
+    height: 30px;
+    width: 108px;
+    margin-bottom: 15px;
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    border-radius: 8%;
+}
+
+.field {
+    width: 360px;
+    height: 162px;
+    margin-top: 15px;
+    border: 1px solid #939493;
+    box-shadow: 1px 1px #939493;
+}
+
+.deslocamento {
+    width: 300px;
+    height: 30px;
+    background-color:white;
+    color: rgba(19, 18, 18, 0.856);
+    font-size: 16px;
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #939493;
+    box-shadow: 1px 1px #939493;
+}
+
